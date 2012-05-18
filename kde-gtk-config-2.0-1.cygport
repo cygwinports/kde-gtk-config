@@ -1,0 +1,8 @@
+inherit kde4
+
+
+
+SRC_URI="mirror://kde/stable/${PN}/${PV}/src/${P}.tar.bz2"
+PATCH_URI="2.0-no-inotify.patch"
+
+DISTCLEANFILES="cmake/modules/FindMSGFMT.cmake"
