@@ -1,0 +1,11 @@
+inherit kde4
+
+NAME="kde-gtk-config"
+VERSION=2.2.1
+RELEASE=1
+CATEGORY="KDE"
+SUMMARY="KDE configuration module for GTK+ apps"
+DESCRIPTION="KDE configuration module for GTK+ apps"
+SRC_URI="mirror://kde/stable/${NAME}/${VERSION}/src/${NAME}-${VERSION}.tar.xz"
+
+DISTCLEANFILES="cmake/modules/FindMSGFMT.cmake"

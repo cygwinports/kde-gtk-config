@@ -1,4 +1,0 @@
-category: KDE
-requires: libgcc1 libglib2.0_0 libgtk2.0_0 libgtk3_0 libkdecore5 libQtCore4 libQtGui4 libstdc++6
-sdesc: "KDE configuration module for GTK+ apps"
-ldesc: "KDE configuration module for GTK+ apps"
