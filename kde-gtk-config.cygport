@@ -1,11 +1,8 @@
-inherit kde4
+inherit kf5
 
 NAME="kde-gtk-config"
-VERSION=2.2.1
+VERSION=5.8.5
 RELEASE=1
 CATEGORY="KDE"
-SUMMARY="KDE configuration module for GTK+ apps"
-DESCRIPTION="KDE configuration module for GTK+ apps"
-SRC_URI="mirror://kde/stable/${NAME}/${VERSION}/src/${NAME}-${VERSION}.tar.xz"
-
-DISTCLEANFILES="cmake/modules/FindMSGFMT.cmake"
+SUMMARY="KDE configuration for GTK+ applications"
+DESCRIPTION="KDE settings module for widget style of GNOME/GTK Applications"
